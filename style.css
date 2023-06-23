@@ -8,10 +8,10 @@ body, header, nav, ul, li, a, input {
 
 /* Header styles */
 header {
-  background-color: #00008B;
+  background-color: #FFFFFF;
   height: 60px;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   padding: 0 20px;
 }
