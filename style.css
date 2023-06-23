@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, header, nav, ul, li, a, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #f1f1f1;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Logo styles */
+.logo img {
+  height: 40px;
+}
+
+/* Search bar styles */
+.search-bar {
+  position: relative;
+  margin-left: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 300px;
+  height: 30px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.search-bar a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* Language styles */
+.language img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+/* Account styles */
+.account a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Cart styles */
+.cart img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
